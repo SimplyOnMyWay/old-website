@@ -1,0 +1,46 @@
+/* copy of wayback-search-js styles */
+.search-toolbar {
+  max-width: 800px;
+  text-align: center;
+  margin: 30px auto 23px auto;
+}
+@media (min-width: 600px) {
+  .search-toolbar {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+  }
+  .search-toolbar-logo-container {
+    margin: 0 18px -9px 0;
+    min-width: 183px;
+  }
+}
+.search-toolbar-input-container {
+  width: 100%;
+}
+.search-toolbar input {
+  flex-grow: 1;
+  /*width: 100%;*/
+  font-size: 17px;
+  font-weight: 300;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 2px 5px 10px;
+  margin-right: 10px;
+}
+/* additional */
+@media (min-width: 600px) {
+  .search-toolbar-input-container {
+    display: flex;
+  }
+}
+@media (max-width: 600px) {
+  .search-toolbar-input-container button {
+    margin-top: 6px;
+    padding: 4px 10px;
+  }
+}
+#resultsUrl .fa-spinner {
+    width: 2em;
+    height: 2em;
+}
